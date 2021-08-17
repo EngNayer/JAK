@@ -1,0 +1,71 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+@font-face {
+    font-family: 'JF-Flat';
+    src: url('../fonts/Cairo-Regular.ttf');
+    src: url('../fonts/Cairo-Regular.ttf') format('woff'),
+    url('../fonts/Cairo-Regular.ttf') format('truetype')
+}
+
+.selector i{
+    right: 10px;
+}
+
+.contentCart {
+    left: 0;
+    transform: translateX(-100%);
+}
+
+.OverLay{
+    right: 0;
+    transform: translateX(100%);
+}
+
+.pinTitle{
+    right: 20px;
+}
+
+.iconControl{
+    left: 10px;
+}
+
+.shapeLeft:before{
+    left: 0;
+}
+
+.profile .nav-tabs .nav-item {
+    text-align: right;
+    padding: 0;
+}
+
+.headBang h6 {
+    border-left: 1px solid #b1b1b1;
+}
+
+.headBang h6:last-child {
+    border-left: 0px solid #b1b1b1;
+}
+
+.coupon{
+    left: 0;
+}
+
+/* Media Screen */
+
+@media screen and (max-width: 990px){
+
+
+    .fixHeader{
+        right: 0;
+        transform: translateX(100%);
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+
+}
